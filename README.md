@@ -1,3 +1,6 @@
+Here's the complete README.md file code that you can copy and paste:
+
+```markdown
 # Personal Finance Visualizer
 
 A comprehensive web application for tracking personal finances with advanced visualization and budgeting features.
@@ -41,28 +44,28 @@ A comprehensive web application for tracking personal finances with advanced vis
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/personal-finance-visualizer.git
    cd personal-finance-visualizer
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Set up environment variables**
-   Create a \`.env.local\` file in the root directory:
-   \`\`\`env
+   Create a `.env.local` file in the root directory:
+   ```env
    MONGODB_URI=mongodb://localhost:27017/personal-finance
    # OR for MongoDB Atlas:
    # MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/personal-finance
-   \`\`\`
+   ```
 
 4. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -72,36 +75,36 @@ A comprehensive web application for tracking personal finances with advanced vis
 #### Option 1: Local MongoDB
 1. Install MongoDB locally
 2. Start MongoDB service
-3. Use connection string: \`mongodb://localhost:27017/personal-finance\`
+3. Use connection string: `mongodb://localhost:27017/personal-finance`
 
 #### Option 2: MongoDB Atlas (Recommended)
 1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/atlas)
 2. Create a new cluster
 3. Get your connection string
-4. Replace the MONGODB_URI in your \`.env.local\` file
+4. Replace the MONGODB_URI in your `.env.local` file
 
 ## Deployment on Render
 
 ### Step 1: Prepare for Deployment
 
 1. **Create a production build**
-   \`\`\`bash
+   ```bash
    npm run build
-   \`\`\`
+   ```
 
 2. **Test the production build locally**
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 ### Step 2: Deploy to Render
 
 1. **Push your code to GitHub**
-   \`\`\`bash
+   ```bash
    git add .
    git commit -m "Initial commit"
    git push origin main
-   \`\`\`
+   ```
 
 2. **Create a Render account**
    - Go to [render.com](https://render.com)
@@ -113,8 +116,8 @@ A comprehensive web application for tracking personal finances with advanced vis
    - Configure the service:
      - **Name**: personal-finance-visualizer
      - **Environment**: Node
-     - **Build Command**: \`npm install && npm run build\`
-     - **Start Command**: \`npm start\`
+     - **Build Command**: `npm install && npm run build`
+     - **Start Command**: `npm start`
 
 4. **Add Environment Variables**
    In the Render dashboard, add:
@@ -124,11 +127,11 @@ A comprehensive web application for tracking personal finances with advanced vis
 5. **Deploy**
    - Click "Create Web Service"
    - Wait for deployment to complete
-   - Your app will be available at: \`https://your-app-name.onrender.com\`
+   - Your app will be available at: `https://your-app-name.onrender.com`
 
 ## Project Structure
 
-\`\`\`
+```
 personal-finance-visualizer/
 ├── app/
 │   ├── api/
@@ -158,7 +161,7 @@ personal-finance-visualizer/
 ├── tailwind.config.js
 ├── next.config.js
 └── README.md
-\`\`\`
+```
 
 ## Usage
 
@@ -206,9 +209,9 @@ personal-finance-visualizer/
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch (\`git checkout -b feature/amazing-feature\`)
-3. Commit your changes (\`git commit -m 'Add amazing feature'\`)
-4. Push to the branch (\`git push origin feature/amazing-feature\`)
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## License
@@ -218,4 +221,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 If you encounter any issues or have questions, please open an issue on GitHub.
-# Assignment-19
+```
